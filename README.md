@@ -104,7 +104,7 @@ getCompte()
 
 getComptes()
 ![image](https://github.com/MeriameZaouia/Web-Service-SOAP/assets/92438936/97bf6b8f-5ae7-45b9-bbd1-03ced1a731fd)
-## Création d'un client SOAP Java
+## Creation of a SOAP Java client 
 
 
 To intergrate the service in a JAVA application , These steps are required :
