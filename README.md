@@ -1,11 +1,11 @@
 
-# Web-Service-SOAP --- Réalisé par : Meriame ZAOUIA
+# Practical work of Web-Service-SOAP --- made by : OULAKBIR Ilham
 
-Ce Web service permet de : 
+This Web service allows to : 
    
-    • Convertir un montant de l’euro en DH
-    • Consulter un Compte
-    • Consulter une Liste de comptes
+    • Convert an euro amounten to DH one
+    • Consult an account
+    • Consult a List of accounts
 
 
 
@@ -64,7 +64,7 @@ public class BanqueService {
 
 
 
-## le Web service est déployé avec un Serveur JaxWS
+## The Web service is deployed with a JaxWS Server
 
 ```bash
 
@@ -88,13 +88,13 @@ public class ServerJWS {
 
 
 
-## Le WSDL consulté via un Browser HTTP
+## The WSDL consulted via an HTTP Browser
 
 ![image](https://github.com/MeriameZaouia/Web-Service-SOAP/assets/92438936/dd4f90ec-32c7-433d-a3c0-bb6c91dad524)
 
 
 
-## Test des opérations du web service avec SoapUI
+## Test of web service operations with SoapUI
 
 ConversionEuroToDH()
 ![image](https://github.com/MeriameZaouia/Web-Service-SOAP/assets/92438936/f774ac39-6d1a-4d82-8d94-d284200c4e8d)
@@ -107,9 +107,9 @@ getComptes()
 ## Création d'un client SOAP Java
 
 
-Pour intégrer le service dans une application Java, les étapes suivantes sont nécessaires :
+To intergrate the service in a JAVA application , These steps are required :
 
-### Générer le stub(proxy coté client) à partir du WSDL.
+### Generate the stub(client proxy) from the WSDL.
 
 
 <img width="701" alt="image" src="https://github.com/MeriameZaouia/Web-Service-SOAP/assets/92438936/7773e67c-d2ea-4bb2-9474-4e2da410280a">
@@ -117,7 +117,7 @@ Pour intégrer le service dans une application Java, les étapes suivantes sont 
 <img width="356" alt="image" src="https://github.com/MeriameZaouia/Web-Service-SOAP/assets/92438936/9f349231-20be-4e20-9c2b-18d898f1d907">
 
 
-### Créer un client SOAP pour interagir avec le web service.
+### Create a client SOAP to interact with the web service.
 
 ```bash
 public class ClientWS {
